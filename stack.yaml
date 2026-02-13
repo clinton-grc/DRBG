@@ -1,0 +1,15 @@
+resolver: lts-24.30
+
+allow-newer: true
+allow-newer-deps:
+  - DRBG
+  - cipher-aes128
+
+extra-deps:
+  #- DRBG-0.5.5@sha256:3b8040bed356e2b63927a27fb6d5adbd19d70c9e1d1bb66111bbeb33e56900eb,2259
+  - git: https://github.com/clinton-grc/cipher-aes128
+    commit: 6c05a12204367e435e0f4420e981297d63f91d54
+  #- git: https://github.com/clinton-grc/monadcryptorandom
+  #  commit: 986f22eb1a7aa960f67ab7cf28cbb3fb340996f1
+  #- text-format-0.3.2.1@sha256:557b3723dfdd28d015846b143cb7b63817110c724b06fce422d9b4272d96bba7,1865
+  #- uuid-quasi-0.1.0.1@sha256:232c7bcf08f2254da52ecb2edf069734d9da5a5240b746f0609fb49b502f3909,797
